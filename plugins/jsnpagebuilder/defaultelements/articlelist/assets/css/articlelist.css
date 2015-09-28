@@ -1,0 +1,76 @@
+.articlelist-style-label label {
+    font-weight: bold;
+}
+.pb-articlelist-title h3 a {
+	color: #333;
+}
+.pb-articlelist-title h3 a:hover {
+	text-decoration: none;
+}
+.articlelist-style-label .field-set-label-break {
+    border-top: 1px solid #000000;
+    width: 95%;
+}
+.articlelist-style-label .field-set-label-break .field-set-label {
+    text-align: center;
+    background-color: white;
+    margin: -10px 40% 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.pb-articlelist-wrapper .pb-articlelist-list ul {
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.pb-articlelist-wrapper .pb-articlelist-list ul.list-style-type-thumbnail,
+.pb-articlelist-wrapper .pb-articlelist-list ul.list-style-type-none {
+	margin: 0;
+}
+.pb-articlelist-wrapper .articlelist-item {
+	clear: both;
+	padding: 10px 0;
+	margin: 0;
+}
+.pb-articlelist-wrapper .pb-articlelist-first .title {
+	margin: 15px 0 0;
+}
+.pb-articlelist-wrapper .meta-data-wrapper.muted {
+	display: inline-block;
+	margin: 10px 0 5px;
+}
+.pb-articlelist-wrapper .meta-data-wrapper.muted div {
+	float: left;
+	margin-right: 20px;
+}
+.pb-articlelist-wrapper .meta-data-wrapper.muted {
+	display: inline-block;
+	margin: 10px 0 5px;
+}
+.pb-articlelist-first .title a,
+.articlelist-item .title a {
+	line-height: 1.2;
+	font-weight: bold;
+}
+.pb-articlelist-first .title a {
+	font-size: 18px;
+	margin-top: 15px;
+}
+.articlelist-item .title a {
+	font-size: 15px;
+}
+.articlelist-item-thumbnail {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+.pb-element-articlelist .see-more {
+	text-align: right;
+}
+
+#parent-param-articlelist_filter_categories .chzn-container-multi .chzn-choices li.search-field input[type="text"],
+#parent-param-articlelist_filter_k2_categories .chzn-container-multi .chzn-choices li.search-field input[type="text"],
+#parent-param-articlelist_filter_easy_categories .chzn-container-multi .chzn-choices li.search-field input[type="text"],
+#parent-param-articlelist_filter_authors .chzn-container-multi .chzn-choices li.search-field input[type="text"],
+#parent-param-articlelist_filter_k2_authors .chzn-container-multi .chzn-choices li.search-field input[type="text"],
+#parent-param-articlelist_filter_easy_authors .chzn-container-multi .chzn-choices li.search-field input[type="text"] {
+    width: auto !important;
+}

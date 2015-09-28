@@ -1,0 +1,30 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+ 
+.pb-tbl-pricing tr:nth-child(1) {
+	background: #FFFFFF !important;
+}
+
+.pb-tbl-pricing tr {
+	list-style: none;
+}
+
+.pb-tbl-pricing tr td {
+	border-top: 1px solid #ddd !important;
+}
+
+.pb-tbl-pricing tr td.pb-delete-column-td {
+	border-top: none !important;
+}
+
+.pb-tbl-pricing .jsn-element {
+	padding: 10px !important;
+}

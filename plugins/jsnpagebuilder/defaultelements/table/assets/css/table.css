@@ -1,0 +1,86 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+
+/** table shortcode **/
+.table_wrapper{
+    width: 100%;
+}
+.table_action{
+    margin-right: 10px !important;
+}
+.table_element .controls{
+    margin-top: 20px;
+}
+.table_sc_action{
+    border: none !important;
+}
+.table_sc_action td{
+    border: none !important;
+    text-align: center !important;
+}
+#table_content{
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+}
+#table_content th{
+    border-top: 1px solid #ddd;
+    -webkit-border-radius:0;-moz-border-radius:0;border-radius:0;
+}
+#table_content th *{
+    font-weight: bold;
+}
+.pb-delete-column-td
+{
+    border: none;
+    border-top: none !important;
+    background: #fff;
+    vertical-align: middle;
+    height: 39px;
+    width: 30px;
+}
+#table_content tr:nth-child(1){
+    background: #ececec;
+}
+#table_content tr:last-child{
+    border-top: 1px solid #ddd;
+}
+#table_content tr:last-child td{
+    border: none;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+#td_right_column{
+    width: 30px;
+}
+#right_column{
+    margin-top: -40px;
+}
+#right_column tr th{
+    border-top: none;
+}
+
+#parent-param-el_title .control-label {
+	width: 85px !important;
+	font-weight: bold;
+}
+
+#parent-param-el_title .controls {
+	margin-left: 0 !important;
+}
+
+.table_element label {
+	font-weight: bold;
+}
+
+#jsn_view_modal .jsn-item-content p {
+	margin: 0;
+}

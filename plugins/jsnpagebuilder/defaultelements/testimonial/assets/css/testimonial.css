@@ -1,0 +1,192 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+
+/*** Testimonial ***/
+[id*="testimonial_"] {
+    margin-bottom: 40px !important;
+}
+
+.pb-testimonial {
+    position: relative;
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+.pb-testimonial .carousel-indicators {
+    top: auto !important;
+}
+
+.pb-testimonial-item {
+    text-align: center;
+    right: auto;
+}
+
+.pb-testimonial-box {
+    position: relative;
+    background: #FFF;
+    border: 1px solid #DDD;
+    padding: 20px 30px 15px;
+    border-radius: 5px;
+}
+
+.carousel.pb-testimonial ol.carousel-indicators li {
+    background-color: #D6D6D6;
+}
+
+.carousel.pb-testimonial ol.carousel-indicators li.active {
+    background-color: #0088CC;
+}
+
+.carousel.pb-testimonial .carousel-inner {
+    padding-bottom: 20px;
+}
+
+.pb-testimonial .pb-testimonial-content p {
+    text-align: center;
+}
+
+.pb-testimonial-item .top > .arrow {
+    left: 50%;
+    margin-left: -9px;
+    border-bottom-width: 0;
+    border-top-color: #999;
+    border-top-color: rgba(0, 0, 0, .25);
+    bottom: -10px;
+}
+
+.pb-testimonial-box .arrow {
+    border-width: 9px;
+}
+
+.pb-testimonial-box .arrow, .pb-testimonial-box .arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.pb-testimonial-item .top > .arrow:after {
+    content: " ";
+    bottom: -7px;
+    margin-left: -9px;
+    border-bottom-width: 0;
+    border-top-color: #FFF;
+}
+
+.pb-testimonial-item .top > .arrow:after {
+    border-width: 9px;
+    content: "";
+}
+
+.pb-testimonial-content p {
+    font-family: "Times New Roman", serif;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    color: #555;
+}
+
+.pb-testimonial-avatar {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 30px 10px 0;
+}
+
+.pb-testimonial-avatar img {
+    display: block;
+    width: 100%;
+}
+
+.pb-testimonial-meta {
+    margin: 5px 20px 20px
+}
+
+.pb-testimonial-meta {
+    margin: 5px 20px 20px
+}
+
+.pb-testimonial-meta .pb-testimonial-name {
+    display: block;
+    font-weight: bold;
+    color: #393939;
+}
+
+.pb-testimonial-meta .pb-testimonial-jobtitle, .pb-testimonial-meta .pb-testimonial-country, .pb-testimonial-meta .pb-testimonial-link {
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.pb-testimonial-meta .pb-testimonial-jobtitle, .pb-testimonial-meta .pb-testimonial-country {
+    color: #8A8A8A;
+}
+
+.pb-testimonial .carousel-indicators {
+    bottom: -50px !important;
+}
+
+.pb-testimonial .pb-arrow-left, .pb-testimonial .pb-arrow-right {
+    border: 1px solid #CCC;
+    top: auto !important;
+    bottom: -10px !important;
+    position: absolute !important;
+    display: inline-block !important;
+    margin-top: -19px;
+    font-size: 15px !important;
+    color: #AAA !important;
+    width: 25px !important;
+    height: 25px;
+    line-height: 24px;
+    text-shadow: none !important;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.jsn-bootstrap3.jsn-pagebuilder .pb-testimonial .carousel-indicators {
+  	display: inline-block;
+    left: 0;
+    margin: 0;
+    width: 100%;
+}
+.jsn-bootstrap3.jsn-pagebuilder .pb-testimonial .carousel-indicators li {
+	float: none;
+}
+.pb-testimonial .pb-arrow-left {
+    left: 50% !important;
+    margin-left: -28px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.pb-testimonial .pb-arrow-right {
+    right: 50% !important;
+    margin-right: -28px;
+    cursor: pointer;
+}
+
+.pb-testimonial .pb-arrow-left:hover, .pb-testimonial .pb-arrow-right:hover {
+    color: #428BCA !important;
+    border-color: #428BCA;
+}
+
+.jsn-bootstrap3 .pb-testimonial .carousel-control.left {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, transparent 100%) !important;
+    background-repeat: repeat-x;
+}
+
+.jsn-bootstrap3 .pb-testimonial .carousel-control.right {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5) 0%, transparent 100%) !important;
+    background-repeat: repeat-x;
+}

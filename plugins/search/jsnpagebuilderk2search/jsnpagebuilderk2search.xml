@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="search" method="upgrade">
+    <name>JSN PageBuilder extended - K2 Search</name>
+    <author>JoomlaShine.com</author>
+    <creationDate>09/25/2015</creationDate>
+    <authorEmail>support@joomlashine.com</authorEmail>
+    <authorUrl>http://www.joomlashine.com</authorUrl>
+    <copyright>Copyright (c) 2012 - JoomlaShine.com</copyright>
+    <license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <version>1.1.7</version>
+    <description>JSN PageBuilder extended - K2 Search</description>
+    <scriptfile>subinstall.php</scriptfile>
+    <files>
+        <filename plugin="jsnpagebuilderk2search">jsnpagebuilderk2search.php</filename>
+        <filename>index.html</filename>
+        <filename>subinstall.php</filename>
+    </files>
+</extension>

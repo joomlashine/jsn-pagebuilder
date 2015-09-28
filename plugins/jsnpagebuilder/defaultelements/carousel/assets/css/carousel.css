@@ -1,0 +1,90 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+ 
+/* Carousel */
+.jsn-bootstrap3 .carousel {
+	max-width: 100%;
+}
+.jsn-bootstrap3 .carousel .carousel-content {
+	padding: 0 65px;
+}
+.jsn-bootstrap3 .carousel .carousel-control span{
+	position: absolute;
+	top: 50%;
+}
+.jsn-bootstrap3 .carousel .carousel-control span.icon-arrow-left {	
+	left: 20px;
+}
+.jsn-bootstrap3 .carousel .carousel-control span.icon-arrow-right {	
+	right: 20px;
+}
+.jsn-bootstrap3 .carousel-indicators li {
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.jsn-bootstrap3 .carousel-indicators li:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.jsn-bootstrap3 [class*="col-"] {
+	-moz-box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	-o-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+
+.pb-element-carousel .carousel-indicators .active {
+    background: none repeat scroll 0 0 #0088CC;
+}
+.pb-element-carousel .carousel-control {
+	background-color: transparent;
+	border: none;
+	border-radius: 0px;
+	line-height: auto;
+	margin-top: 0px;
+	height: auto;
+	left: auto;
+    font-size: 20px;
+    position: absolute;
+}
+.pb-element-carousel .carousel-control.right {
+	right: 0;
+}
+.pb-element-carousel .carousel-indicators li {
+	float: none !important;
+}
+.pb-element-carousel .carousel-indicators {
+	top: auto;
+}
+.jsn-bootstrap3 .carousel-caption {
+	background-color: transparent;
+}
+.jsn-bootstrap3 .carousel-control.left,
+.jsn-bootstrap3 .carousel-control.right{
+	background: none;
+}
+.jsn-bootstrap3 .carousel .carousel-control span{
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	width: 38px;
+	height: 38px;
+	margin-top: -19px;
+	font-size: 15px;
+	line-height: 38px;
+	background: rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-right: 0px;
+}

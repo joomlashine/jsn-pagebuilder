@@ -1,0 +1,29 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+ 
+#jsn_view_modal .wysiwyg-dialog-content form.wysiwyg input, .wysiwyg-dialog form.wysiwyg select{
+    width: 98%;
+}
+#jsn_view_modal .ui-dialog-titlebar{
+    background: #333;
+    border: 1px #111 solid;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+#jsn_view_modal form.wysiwyg.ui-dialog-content.ui-widget-content{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+#jsn_view_modal form.wysiwyg.ui-dialog-content.ui-widget-content input[type="text"]{
+    width: 96%;
+}

@@ -1,0 +1,48 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+
+/*** Promo Box ***/
+.promo-box-shadow:before, .promo-box-shadow:after {
+    bottom: 15px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.35);
+    content: "";
+    height: 20%;
+    left: 10px;
+    max-height: 100px;
+    max-width: 300px;
+    position: absolute;
+    transform:rotate(-3deg);
+	-ms-transform:rotate(-3deg); /* IE 9 */
+	-webkit-transform:rotate(-3deg); /* Safari and Chrome */
+    width: 50%;
+    z-index: -1;
+}
+.promo-box-shadow:after {
+    left: auto;
+    right: 10px;
+    transform:rotate(3deg);
+	-ms-transform:rotate(3deg); /* IE 9 */
+	-webkit-transform:rotate(3deg); /* Safari and Chrome */
+}
+.pb-promobox {
+	position: relative;
+	z-index: 1;
+}
+.pb-promobox h2 {
+	clear: none;
+}
+.pb-promobox section{
+	padding: 28px 28px 27px 31px;
+	margin: 0 0 28px;
+	position: relative;
+}

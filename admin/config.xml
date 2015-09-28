@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<section name="configuration" label="JSN_EXTFW_CONFIG_CONFIGURATION">
+		<group name="msgs" label="COM_PAGEBUILDER_CONFIG_GLOBAL_PARAM" icon="cog">
+		<tab name="global-parameter-general" label="COM_PAGEBUILDER_CONFIG_GENERAL">
+            <fieldset name="general" label="JSN_PAGEBUILDER_CONFIG_GENERAL_LABEL">
+				<field name="enable_pagebuilder" type="jsnradio" default="1" filter="int" label="COM_PAGEBUILDER_CONFIG_ENABLE" description="COM_PAGEBUILDER_CONFIG_ENABLE_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+            </fieldset>
+            <fieldset label="JSN_PAGEBUILDER_CONFIG_GLOBAL_PARAMETERS" addfieldpath="/administrator/components/com_pagebuilder/models/fields">
+                <field name="extension_support" type="jsnpbextsupport" label="Extension Support" description="JSN_PAGEBUILDER_CONFIG_EXTENSION_SUPPORT_DESC">
+                </field>
+                <action label="JAPPLY" task="configuration.save" />
+            </fieldset>
+		</tab>
+		</group>
+
+        <group name="permissions" label="JSN_PAGEBUILDER_CONFIG_PERMISSION" icon="lock"  ajax="0">
+            <fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL">
+                <field name="permissions" type="permissions" class="inputbox" filter="rules" validate="rules" component="com_pagebuilder" section="component" />
+                <action label="JAPPLY" task="configuration.save" />
+            </fieldset>
+        </group>
+	</section>
+
+    <section name="maintainence" label="JSN_PAGEBUILDER_EXTPAGE_PLUGINS" >
+        <group name="extensions" label="JSN_PAGEBUILDER_EXTPAGE_SUPORTED_EXT" icon="folder" ajax="0">
+            <fieldset name="extensionsmanager-set" addfieldpath="/administrator/components/com_pagebuilder/models/fields" label="JSN_PAGEBUILDER_EXTENSION_SUPPORTED_LABEL">
+                <field name="extensionsmanager" type="extensionsmanager" />
+            </fieldset>
+        </group>
+    </section>
+
+    <section name="integration" label="JSN_PAGEBUILDER_INTEGRATION">
+        <group name="weather_api_keys" label="JSN_PAGEBUILDER_WEATHER_API_KEYS" icon="database" ajax="0">
+            <fieldset name="weather_api_set" label="JSN_PAGEBUILDER_WEATHER_API_KEYS">
+                <field name="weather_api_key" type="jsntext" label="JSN_PAGEBUILDER_WEATHER_API_KEY"/>
+                <action label="JAPPLY" task="configuration.save"/>
+            </fieldset>
+        </group>
+        <group name="soundcloud_client_ids" label="JSN_PAGEBUILDER_SOUNDCLOUND_CLIENT_KEYS" icon="database" ajax="0">
+            <fieldset name="soundcloud_client_set" label="JSN_PAGEBUILDER_SOUNDCLOUND_CLIENT_KEYS">
+                <field name="soundcloud_client_id" type="jsntext" label="JSN_PAGEBUILDER_SOUNDCLOUND_CLIENT_KEY"/>
+                <action label="JAPPLY" task="configuration.save"/>
+            </fieldset>
+        </group>
+    </section>
+
+</config>

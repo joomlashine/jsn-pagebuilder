@@ -1,0 +1,29 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+/* ============================================================
+	SMARTPHONE LAYOUT (240 - 480)
+=============================================================*/
+@media only screen and (max-width: 480px), (max-device-width: 480px) {
+	.carousel .carousel-image {
+		max-width: 100%;
+	}
+	.carousel-caption {
+		position: absolute;
+	}
+}
+/* ============================================================
+	TABLET LAYOUT (481 - 960)
+=============================================================*/
+@media only screen and (min-width: 481px) and (max-width: 960px), (min-device-width: 481px) and (max-device-width: 960px) {
+	.carousel .carousel-image {
+		max-width: 100%;
+	}
+}

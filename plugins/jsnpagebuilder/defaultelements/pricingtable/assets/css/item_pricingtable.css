@@ -1,0 +1,28 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+
+.radio input[type="radio"], .checkbox input[type="checkbox"]{
+
+
+}
+.radio-type {
+	background-image:none !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+.radio-type .controls{
+    margin-left: 0 !important;
+}
+.radio-type .controls .radio input[type="radio"]{
+    margin: 5px !important;
+    float: none !important;
+}

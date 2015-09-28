@@ -1,0 +1,119 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+
+/*** List icons  ***/
+.jsn-bootstrap3 .pb-list-icons { 
+	margin: 0; 
+	padding: 0;
+}
+.jsn-bootstrap3 .pb-list-icons li {
+	clear: both;
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0;
+	min-height: 60px;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 30px;
+}
+.jsn-bootstrap3 .pb-list-icons .pb-icon-base i { position: relative; }
+.jsn-bootstrap3 .pb-list-icons [class^="icon-"],
+.jsn-bootstrap3 .pb-list-icons [class*=" icon-"],
+.jsn-bootstrap3 .pb-list-icons [class^="fa-"],
+.jsn-bootstrap3 .pb-list-icons [class*=" fa-"] {
+    height: auto;
+    line-height: 100%;
+    margin-top: 0;
+    vertical-align: middle;
+    width: auto;
+}
+.jsn-bootstrap3 .pb-list-icons.pb-icon-16 .pb-icon-base i[class*="icon-"], .jsn-bootstrap3 .pb-list-icons.pb-icon-16 .pb-icon-base i[class*="fa-"] { font-size: 14px; }
+.jsn-bootstrap3 .pb-list-icons.pb-icon-24 .pb-icon-base i[class*="icon-"], .jsn-bootstrap3 .pb-list-icons.pb-icon-24 .pb-icon-base i[class*="fa-"] { font-size: 22px; }
+.jsn-bootstrap3 .pb-list-icons.pb-icon-32 .pb-icon-base i[class*="icon-"], .jsn-bootstrap3 .pb-list-icons.pb-icon-32 .pb-icon-base i[class*="fa-"] { font-size: 30px; }
+.jsn-bootstrap3 .pb-list-icons.pb-icon-48 .pb-icon-base i[class*="icon-"], .jsn-bootstrap3 .pb-list-icons.pb-icon-48 .pb-icon-base i[class*="fa-"] { font-size: 46px; }
+.jsn-bootstrap3 .pb-list-icons.pb-icon-64 .pb-icon-base i[class*="icon-"], .jsn-bootstrap3 .pb-list-icons.pb-icon-64 .pb-icon-base i[class*="fa-"] { font-size: 62px; }
+.jsn-bootstrap3 .pb-list-icons .pb-icon-base {
+	position: relative;
+	z-index: 9;
+	text-align: center;
+}
+.jsn-bootstrap3 .pb-list-icons.pb-shape-circle .pb-icon-base {
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border: 2px solid rgba(255,255,255,0.4);
+}
+.jsn-bootstrap3 .pb-list-icons.pb-shape-square .pb-icon-base {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.jsn-bootstrap3 .pb-list-icons.pb-position-left .pb-icon-base {
+	float: left;
+	margin-right: 15px;
+}
+.jsn-bootstrap3 .pb-list-icons.pb-position-right {
+	text-align: right;
+}
+.jsn-bootstrap3 .pb-list-icons.pb-position-right .pb-icon-base {
+	float: right;
+	margin-left: 15px;
+}
+.jsn-bootstrap3 .pb-list-icons.pb-position-center {
+    text-align: center;
+}
+.jsn-bootstrap3 .pb-list-icons.pb-position-center .pb-icon-base {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.jsn-bootstrap3 .pb-list-content-wrap {
+	overflow: hidden;
+}
+.jsn-bootstrap3 .pb-list-icons.pb-shape-circle.pb-icon-16 .pb-icon-base,
+.jsn-bootstrap3 .pb-list-icons.pb-shape-square.pb-icon-16 .pb-icon-base {
+	width: 45px;
+	height: 45px;
+	line-height: 37px;
+}
+.jsn-bootstrap3 .pb-list-icons.pb-shape-circle.pb-icon-24 .pb-icon-base,
+.jsn-bootstrap3 .pb-list-icons.pb-shape-square.pb-icon-24 .pb-icon-base {
+	width: 55px;
+	height: 55px;
+	line-height: 50px;
+}
+.jsn-bootstrap3 .pb-list-icons.pb-icon-32 .pb-icon-base {
+	width: 67px;
+	height: 67px;
+	line-height: 60px;
+}
+.jsn-bootstrap3 .pb-list-icons.pb-icon-48 .pb-icon-base {
+	width: 85px;
+	height: 85px;
+	line-height: 81px;
+}
+.jsn-bootstrap3 .pb-list-icons.pb-icon-64 .pb-icon-base {
+	width: 100px;
+	height: 100px;
+	line-height: 98px;
+}
+.jsn-bootstrap3 .pb-list-icons.pb-shape-square.pb-icon-16 .pb-icon-base { line-height: 42px; }
+.jsn-bootstrap3 .pb-list-icons.pb-shape-square.pb-icon-24 .pb-icon-base { line-height: 54px; }
+.jsn-bootstrap3 .gm-style .pb-gmi-thumb {
+	max-width: 120px;
+	max-height: 120px;
+	float:right;
+}
+
+.jsn-bootstrap3 .pb-element-list [class^="icon-"], [class*=" icon-"], .jsn-bootstrap3 .pb-element-list [class^="fa-"], [class*=" fa-"] {
+    margin-right: 0;
+}

@@ -1,0 +1,77 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+
+.jsn-bootstrap3 img[class*="img-"] {
+    margin: 10px 0;
+}
+
+div.pb_text p.dropcap:first-letter {
+    margin: 0.1em 0.2em 0.1em -0.05em;
+}
+
+.jsn-bootstrap3 .mejs-container,
+.jsn-bootstrap3 .local_file,
+iframe, object, video {
+    max-width: 100%;
+}
+
+.jsn-bootstrap3 .pb-element-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.jsn-bootstrap3 [class^="fa-"], [class*=" fa-"] {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.jsn-bootstrap3 [class^="icon-"], [class*=" icon-"], .jsn-bootstrap3 [class^="fa-"], [class*=" fa-"] {
+    margin-right: 8px;
+    background-image: none;
+}
+
+
+
+.jsn-master {
+    min-height: 95%;
+    height: 99%;
+}
+
+.jsn-master #shortcode_preview_iframe body {
+    height: 99%
+}
+
+.pb-element-container .pb-element-module .add-on {
+    padding: 5px 0px 21px 7px;
+}
+
+.pb-element-container .pb-promobox .promo-box-shadow {
+    float: left;
+}
+
+.pb-element-alert .alert {
+    float: left;
+}
+
+.jsn-bootstrap * {
+    box-sizing: content-box !important;
+}
+
+.collapse {
+    -webkit-transition: none !important;
+    transition: none !important;
+
+}

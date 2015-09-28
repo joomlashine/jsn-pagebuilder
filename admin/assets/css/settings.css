@@ -1,0 +1,37 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+ 
+ #modalOptions #preview_container {
+    max-height: 200px;
+    position: relative;
+}
+
+#modalOptions #preview_container .shortcode_preview_iframe {
+    height: 200px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+#modalOptions #pb_overlay_loading{
+	top: 1px;
+	left: 1px;
+}
+#modalOptions #shortcode_preview_iframe {
+	width:100%;
+}
+
+.jsn-master #jsn_column1 {float: left; width: 50%;}
+.jsn-master #jsn_column2 {float: left; width: 49%; margin-left: 1%;}
+.jsn-master #jsn_column2 .preview_title {font-weight: bold; font-size: 14px; padding-left: 5px;}
+.jsn-master #jsn_column2 .preview_border {border: solid 1px #ddd; border-radius: 3px; padding: 15px;}
+.jsn-master #jsn_column2 .preview_border .iframe_loading_border {position: absolute; width: 46%;}
+.jsn-master #jsn_column2 .preview_border .iframe_loading_border .iframe_loading_image {text-align: center; margin: auto; padding-top: 25px;}

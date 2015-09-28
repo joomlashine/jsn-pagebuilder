@@ -1,0 +1,80 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+
+.pb-weather-wrapper .pb-weather-current, .pb-weather-wrapper .pb-weather-forecast{
+    border: 1px solid #ccc;
+}
+.pb-weather-wrapper .pb-weather-current {
+    padding: 15px;
+}
+.pb-weather-wrapper .row .col-md-6 {
+    width: 50%;
+    float: left;
+}
+.pb-weather-wrapper .pb-weather-current .col-md-6 {
+    line-height: 50px;
+    text-align: center;
+}
+.pb-weather-wrapper .pb-weather-current div.pb-weather-location-name,
+.pb-weather-wrapper .pb-weather-current .pb-weather-icon,
+.pb-weather-wrapper .pb-weather-current .pb-weather-info {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.pb-weather-wrapper .pb-weather-current .pb-weather-location-name,
+.pb-weather-wrapper .pb-weather-current .pb-weather-info {
+    margin-top: 20px;
+}
+.pb-weather-wrapper .pb-weather-current .pb-weather-icon {
+    margin: 0 10px;
+}
+.pb-weather-current-day {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.pb-weather-wrapper .pb-weather-current .pb-weather-advanced .col-md-6{
+    line-height: normal;
+    text-align: left;
+}
+.pb-weather-wrapper .pb-weather-current .pb-weather-advanced .pb-weather-extra .row{
+    margin-bottom: 5px;
+}
+.pb-weather-wrapper .pb-weather-current .pb-weather-advanced h1.pb-weather-current-temp {
+    margin-top: 10px;
+}
+.pb-weather-wrapper .pb-weather-forecast{
+    border-top: none;
+    padding: 10px 15px;
+}
+.pb-weather-wrapper .pb-weather-forecast h4.pb-weather-forecast-title {
+}
+.pb-weather-wrapper .pb-weather-forecast p {
+    margin-bottom: 5px;
+}
+.pb-weather-wrapper .pb-weather-forecast .pb-weather-forecast-day {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    margin: 0 10px 10px 0;
+    padding: 5px 15px;
+}
+.pb-weather-wrapper .pb-weather-forecast .pb-weather-forecast-day .pb-weather-forecast-weekday {
+    font-weight: bold;
+}
+.pb-weather-wrapper .alert.alert-warning {
+    width: 100%;
+}
+
+.pb-weather-current .pb-weather-advanced .col-md-6 .row {
+    margin: 0;
+}

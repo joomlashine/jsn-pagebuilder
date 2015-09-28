@@ -1,0 +1,39 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+
+.jsn-master .jsn-iconsocialselector .jsn-items-list li a {
+    color: #333;
+    white-space: nowrap;
+}
+.jsn-master .jsn-iconsocialselector .jsn-items-list li {
+    display: inline-block;
+    border: medium none;
+    float: left;
+    padding: 0;
+    margin: 2px;
+}
+.jsn-master .jsn-iconsocialselector .jsn-items-list li a {
+    background: #fff;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+}
+.jsn-master .jsn-iconsocialselector .jsn-items-list li a:hover,
+.jsn-master .jsn-iconsocialselector .jsn-items-list li a:active,
+.jsn-master .jsn-iconsocialselector .jsn-items-list li.active a {
+    background: #0088CC !important;
+    border: 1px solid #0088CC;
+    color: #fff;
+}

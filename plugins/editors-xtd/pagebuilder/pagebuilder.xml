@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="editors-xtd"
+	method="upgrade">
+	<name>Button - JSN PageBuilder</name>
+	<version>1.1.7</version>
+	<creationDate>09/25/2015</creationDate>
+	<copyright>Copyright (c) 2008 - 2013 - JoomlaShine.com</copyright>
+	<license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<author>JoomlaShine.com</author>
+	<authorEmail>admin@joomlashine.com</authorEmail>
+	<authorUrl>http://www.joomlashine.com</authorUrl>
+	<description>Editor button plugin to ativate JSN PageBuilder</description>
+	<scriptfile>subinstall.php</scriptfile>
+
+	<files>
+		<filename plugin="pagebuilder">pagebuilder.php</filename>
+		<filename plugin="pagebuilder">subinstall.php</filename>
+		<folder>assets</folder>
+	</files>
+</extension>

@@ -1,0 +1,22 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+
+/* Progress Bar */
+.jsn-bootstrap3 .progress-info > span {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.jsn-bootstrap3 .progress-info .progress-title i {
+	margin-right: 5px;
+}
+.jsn-bootstrap3 .progress-info .progress-percentage {
+	margin-left: 10px;
+}

@@ -1,0 +1,58 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+.jsn-bootstrap3 .pb-social-icons li {
+    list-style-position: outside;
+    list-style-type: none;
+    float: left;
+    margin: 5px 5px 5px 0;
+    overflow: hidden;
+    position: relative;
+}
+.jsn-bootstrap3 .pb-social-icons li [class^="fa-"], .jsn-bootstrap3 .pb-social-icons li [class*=" fa-"]{
+    background-image: none !important;
+    font-size: 32px;
+    color: #fff;
+}
+.jsn-bootstrap3 .pb-social-icons li a {
+    text-align: center;
+}
+.jsn-bootstrap3 .pb-social-icons li a i.fa {
+    margin: 0;
+}
+.jsn-bootstrap3 .pb-social-icons li .pb-brand-icons {
+    height: 70px;
+    width: 70px;
+}
+.jsn-bootstrap3 .pb-social-icons li .pb-brand-icons.small{
+    width: 30px;
+    height: 30px;
+}
+.jsn-bootstrap3 .pb-social-icons li .pb-brand-icons .fa.small {
+    font-size: 16px !important;
+    line-height: 30px;
+}
+.jsn-bootstrap3 .pb-social-icons li .pb-brand-icons.medium{
+    width: 50px;
+    height: 50px;
+}
+.jsn-bootstrap3 .pb-social-icons li .pb-brand-icons .fa.medium{
+    font-size: 32px !important;
+    line-height: 50px;
+}
+.jsn-bootstrap3 .pb-social-icons li .pb-brand-icons.large{
+    width: 100px;
+    height: 100px;
+}
+.jsn-bootstrap3 .pb-social-icons li .pb-brand-icons .fa.large{
+    font-size: 64px !important;
+    line-height: 100px;
+}
+

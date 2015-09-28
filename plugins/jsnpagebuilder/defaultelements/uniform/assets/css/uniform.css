@@ -1,0 +1,7 @@
+.jsn-bootstrap3 .pb-element-uniform .message-uniform .alert {
+    width: 95%;
+}
+
+.jsn-bootstrap3 .pb-element-uniform .message-uniform .alert button.close {
+    right: 0;
+}

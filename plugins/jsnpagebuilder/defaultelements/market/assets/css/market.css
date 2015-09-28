@@ -1,0 +1,82 @@
+/**
+ * @version    $Id$
+ * @package    JSN_PageBuilder
+ * @author     JoomlaShine Team <support@joomlashine.com>
+ * @copyright  Copyright (C) 2012 JoomlaShine.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.joomlashine.com
+ * Technical Support:  Feedback - http://www.joomlashine.com/contact-us/get-support.html
+ */
+.pb-market-header:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.pb-market-title {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.pb-market-update-time {
+    display: inline-block;
+    color: #808080;
+}
+
+/* Table Style */
+.pb-market-table .pb-market-header {
+    padding-left: 8px;
+}
+
+.pb-market-table table tbody tr:hover {
+    background-color: #f3f3f3;
+    cursor: default;
+}
+
+/* Carousel Style */
+.pb-market-carousel-control {
+    float: right;
+    display: inline-block;
+}
+
+.pb-market-carousel-control .button .fa {
+    margin: 0;
+}
+
+.pb-market-carousel-next, .pb-market-carousel-back {
+    display: inline-block;
+}
+
+.pb-market-carousel-next:hover, .pb-market-carousel-back:hover, .pb-market-carousel-down:hover, .pb-market-carousel-up:hover {
+    cursor: pointer;
+}
+
+.pb-market-carousel-item {
+    margin-right: 20px;
+}
+
+.pb-market-carousel-item div {
+    display: inline-block;
+}
+
+.pb-market-layout-vertical .pb-market-carousel-item div {
+    margin-right: 7px;
+}
+
+.pb-market-layout-vertical .pb-market-carousel-item {
+    height: auto;
+}
+
+.pb-market-wrapper .change-down .market-change,
+.pb-market-wrapper .change-down .market-percent-change,
+.pb-market-wrapper .change-down:before {
+    color: red;
+}
+.pb-market-wrapper .change-up .market-change,
+.pb-market-wrapper .change-up .market-percent-change,
+.pb-market-wrapper .change-up:before {
+    color: green;
+}

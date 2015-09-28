@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" group="pagebuilder" type="plugin" method="upgrade">
+	<name>JSN PageBuilder - Alert Element</name>
+	<author>JoomlaShine.com</author>
+	<creationDate>@creationDate</creationDate>
+	<authorEmail>support@joomlashine.com</authorEmail>
+	<authorUrl>http://www.joomlashine.com</authorUrl>
+	<copyright>Copyright (c) 2012 - JoomlaShine.com</copyright>
+	<license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>@version</version>
+	<description>Alert element for JSN PageBuilder</description>
+	<files>
+		<filename plugin="alert">alert.php</filename>
+		<filename>index.html</filename>
+	</files>	
+</extension>

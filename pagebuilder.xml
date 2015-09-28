@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.2" method="upgrade">
+    <name>COM_PAGEBUILDER</name> 
+	<identified_name>ext_pagebuilder</identified_name>	
+    <creationDate>09/25/2015</creationDate>
+    <author>JoomlaShine.com</author>
+    <authorEmail>support@joomlashine.com</authorEmail>
+    <authorUrl>http://www.joomlashine.com</authorUrl>
+    <copyright>Copyright (c) 2013 - JoomlaShine.com</copyright>
+    <license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <version>1.1.7</version>
+    <edition>FREE</edition>
+    <description>COM_PAGEBUILDER_DESC</description>
+    <links>
+        <info>http://www.joomlashine.com/joomla-extensions/jsn-pagebuilder.html</info>
+        <doc>http://www.joomlashine.com/joomla-extensions/jsn-pagebuilder.html#discuss-link</doc>
+        <review>http://www.joomlashine.com/joomla-extensions/jsn-pagebuilder-on-jed.html</review>
+        <check>http://www.joomlashine.com/versioning/product_version.php?category=cat_extension&amp;category_codename=cat_ext_pagebuilder</check>
+        <update>index.php?option=com_pagebuilder&amp;view=update</update>        
+    </links>
+  
+    <install>
+        <sql>
+            <file charset="utf8" driver="mysql">database/mysql/install.mysql.sql</file>         
+        </sql>
+    </install>
+ 
+    <scriptfile>subinstall.php</scriptfile>
+    <!-- 
+	<update>
+		<schemas>
+				<schemapath type="mysql">database/mysql/update</schemapath>
+		</schemas>
+	</update>
+     -->
+    
+    <subinstall>
+    
+		<extension type="plugin" folder="system" name="jsnframework" identified_name="ext_framework" site="site" publish="1" lock="1">
+			JSN Extension Framework System Plugin
+		</extension>
+		<extension type="plugin" folder="system" dir="plugins/system/pagebuilder" name="pagebuilder" client="site" publish="1"/>
+        <extension type="plugin" folder="editors-xtd" dir="plugins/editors-xtd/pagebuilder" name="pagebuilder" client="site" publish="1" />
+        <extension type="plugin" folder="jsnpagebuilder" dir="plugins/jsnpagebuilder/defaultelements" name="defaultelements" client="site" publish="1" lock="1" />
+        <extension type="plugin" folder="search" dir="plugins/search/jsnpagebuildersearch" name="jsnpagebuildersearch" client="site" publish="1" lock="1" />
+		<extension type="plugin" folder="search" dir="plugins/search/jsnpagebuilderk2search" name="jsnpagebuilderk2search" client="site" publish="1" lock="1" />
+    </subinstall>
+    
+   
+    <uninstall>
+        <sql>
+            <file charset="utf8" driver="mysql">database/mysql/uninstall.mysql.sql</file> 
+        </sql>
+    </uninstall>
+
+    <languages folder="site">
+        <language tag="en-GB">admin/language/site/en-GB/en-GB.plg_pagebuilder_defaultelements.ini</language>
+    </languages>
+    <administration>
+        <menu link="option=com_pagebuilder&amp;view=about" img="" alt="JSN PageBuilder">COM_PAGEBUILDER</menu>
+        <submenu>
+            <menu link="option=com_pagebuilder&amp;view=manager" view="manager" img="components/com_pagebuilder/assets/images/icons-16/icon-monitor.png" alt="COM_PAGEBUILDER_MANAGER">COM_PAGEBUILDER_PAGE_MANAGER</menu>
+		    <menu link="option=com_pagebuilder&amp;view=configuration" view="configuration" img="components/com_pagebuilder/assets/images/icons-16/icon-cog.png" alt="COM_PAGEBUILDER_CONFIGURATION">COM_PAGEBUILDER_CONFIGURATION</menu>
+		    <menu link="option=com_pagebuilder&amp;view=about" view="about" img="components/com_poweradmin/assets/images/icons-16/icon-star.png" alt="About">COM_PAGEBUILDER_ABOUT</menu>
+		</submenu>
+        <files folder="admin">
+        	<folder>assets</folder>
+        	<folder>controllers</folder>
+        	<folder>database</folder>
+        	<folder>helpers</folder>
+        	<folder>language</folder>
+        	<folder>libraries</folder>
+        	<folder>models</folder>
+        	<folder>views</folder>
+        	<filename>bootstrap.php</filename>
+        	<filename>config.xml</filename>
+            <filename>access.xml</filename>
+            <filename>controller.php</filename>
+			<filename>defines.pagebuilder.php</filename>
+			<filename>dependency.php</filename>
+            <filename>index.html</filename>
+			<filename>jsninstaller.php</filename>
+            <filename>pagebuilder.php</filename>
+        </files>
+        <languages folder="admin">
+			<language tag="en-GB">language/admin/en-GB/en-GB.com_pagebuilder.ini</language>
+			<language tag="en-GB">language/admin/en-GB/en-GB.com_pagebuilder.sys.ini</language>
+            <language tag="en-GB">language/admin/en-GB/en-GB.plg_pagebuilder_defaultelements.ini</language>
+		</languages>
+    </administration>
+    
+</extension>
