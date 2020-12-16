@@ -38,7 +38,7 @@ class JSNPbVideoHelper {
 	public static function getYoutubeVideoInfo( $file_url ) {
 		if ( empty( $file_url ) )
 			return NULL;
-		$api_url = 'http://www.youtube.com/oembed?url=' . $file_url . '&format=json';
+		$api_url = 'https://www.youtube.com/oembed?url=' . $file_url . '&format=json';
 		$html    = @JSNUtilsHttp::get( $api_url );
 		if ( $html ) {
 			return $html['body'];
